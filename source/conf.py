@@ -75,7 +75,7 @@ with open("index.rst") as f:
 # of the docs
 
 # JP: added from sphinxdocs
-autosummary_generate = False
+autosummary_generate = True
 
 if any([re.match("\s*api\s*", l) for l in index_rst_lines]):
     autosummary_generate = True
