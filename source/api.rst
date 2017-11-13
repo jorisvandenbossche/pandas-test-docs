@@ -19,10 +19,7 @@ holds some public functions related to data types in pandas.
 .. autosummary::
    :toctree: generated/
 
-   read_table
    read_csv
-   read_fwf
-   read_msgpack
 
 
 Constructor
@@ -35,27 +32,16 @@ Constructor
 
    Series
 
-Attributes
-~~~~~~~~~~
-**Axes**
-  * **index**: axis labels
+Methods
+~~~~~~~
 
 .. autosummary::
    :toctree: generated/
 
-   Series.values
-   Series.dtype
-   Series.ftype
-   Series.shape
-   Series.nbytes
-   Series.ndim
-   Series.size
-   Series.strides
-   Series.itemsize
-   Series.base
-   Series.T
-   Series.memory_usage
-   Series.asobject
+   Series.mean
+   Series.std
+   Series.max
+   Series.min
    
    
 ..
